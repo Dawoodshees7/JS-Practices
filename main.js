@@ -531,6 +531,6 @@
 // console.log(i, myArray)
 
 
-
+// difference between while and do..while loop is that while loop wont work at all if the condition is not met....while on the other hand...Do..While loop will work as the condition is at the bottom of the loop...so the loop will run at least once
 
 //------------------------------------
