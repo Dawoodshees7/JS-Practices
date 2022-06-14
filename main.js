@@ -520,12 +520,17 @@
 
 //------------------------------------
 // Do...While Loops
-var myArray = [];
-var i = 10;
+// var myArray = [];
+// var i = 10;
 
-do {
-    myArray.push(i);
-    i++;
-} while (i > 10);
+// do {
+//     myArray.push(i);
+//     i++;
+// } while (i > 10);
 
-console.log(i, myArray)
+// console.log(i, myArray)
+
+
+
+
+//------------------------------------
