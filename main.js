@@ -384,3 +384,58 @@
 // }
 
 // console.log(caseInSwitch(1));
+
+
+
+
+
+//------------------------------------
+//returning Boolean from function
+
+// function isLess(a,b){
+//     return a < b;
+// }
+// console.log(isLess(10,15)); // this will return TRUE becuase 10 is less than 15
+
+
+
+//------------------------------------
+//Build Objects
+// var myDog = {
+//     "name": "Tommy",
+//     "legs": 4,
+//     "tails": 1,
+//     "friends": []
+// }
+
+
+
+
+
+
+
+//------------------------------------
+//Dot Notation
+// var testObj = {
+//     "hat": "ballcap",
+//     "shirt": "jersey",
+//     "shoes": "cleats"
+// };
+
+// var hatValue = testObj.hat;
+// var shirtValue = testObj.shirt;
+
+
+
+
+
+//------------------------------------
+//Bracket Notation
+var testObj = {
+    "my hat": "ballcap",
+    "my shirt": "jersey",
+    "my shoes": "cleats"
+};
+
+var hatValue = testObj["my hat"] ;
+var shirtValue = testObj["my shirt"] ;
