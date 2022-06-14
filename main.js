@@ -431,11 +431,101 @@
 
 //------------------------------------
 //Bracket Notation
-var testObj = {
-    "my hat": "ballcap",
-    "my shirt": "jersey",
-    "my shoes": "cleats"
-};
+// var testObj = {
+//     "my hat": "ballcap",
+//     "my shirt": "jersey",
+//     "my shoes": "cleats"
+// };
 
-var hatValue = testObj["my hat"] ;
-var shirtValue = testObj["my shirt"] ;
+// var hatValue = testObj["my hat"] ;
+// var shirtValue = testObj["my shirt"] ;
+
+
+
+
+
+
+//------------------------------------
+//delete an element
+// var testObj = {
+//     "my hat": "ballcap",
+//     "my shirt": "jersey",
+//     "my shoes": "cleats"
+// };
+
+// delete testobj["my shoes"]
+
+
+
+
+
+
+//------------------------------------
+//While Loops
+//  var myArray = [];
+
+//  var i = 0;
+//  while(i < 5){
+//      myArray.push(i);
+//      i++;
+//  }
+
+//  console.log(myArray);
+
+
+
+
+
+ //------------------------------------
+// FOR Loops
+// var ourArray = [];
+
+// for(var i = 0; i < 5; i++){
+//     ourArray.push(i)
+// }
+// console.log(ourArray)
+
+
+
+
+
+
+//------------------------------------
+// Iterate odd numbers with FOR loop
+
+// var myArray = [];
+
+// for(var i = 0; i < 10; i +=2){
+//     myArray.push(i)
+// }
+// console.log(myArray)
+
+
+
+
+
+
+//------------------------------------
+//count backwards with a for loop with steps of 2 (even numbers)
+// var myArray = [];
+
+// for(var i = 10; i > 0; i -=2){
+//     myArray.push(i)
+// }
+// console.log(myArray)
+
+
+
+
+
+//------------------------------------
+// Do...While Loops
+var myArray = [];
+var i = 10;
+
+do {
+    myArray.push(i);
+    i++;
+} while (i > 10);
+
+console.log(i, myArray)
